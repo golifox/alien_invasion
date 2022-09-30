@@ -27,6 +27,7 @@ class Bullet(Sprite):
         # Update the rect position
         self.rect.y = self.y
 
+
     def draw_bullet(self):
         """Draw the bullet on the screen."""
         pygame.draw.rect(self.screen, self.color, self.rect)
